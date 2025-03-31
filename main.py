@@ -11,7 +11,7 @@ app.include_router(webhook_router)
 
 @app.get("/")
 async def root():
-    return {"message": "Hello"}
+    return {"message": "Hello World"}
 
 
 
